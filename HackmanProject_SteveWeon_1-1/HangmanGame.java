@@ -8,7 +8,7 @@ public class HangmanGame {
         Puzzle puzzle = new Puzzle();
         
         while (puzzle.isUnsolved() && hangingMan.isntDead()) {
-            System.out.println("Russian Roulette:");
+            System.out.println("Russian Hangman:");
             System.out.println("The cylinder of revolver rotates clockwise everytime you guess wrong.");
             System.out.println("Guess the word before the bullet gets chambered and fired.\n");
             hangingMan.show();
